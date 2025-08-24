@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+/* hermano cercano */
+.cercano h2 + p{
+color: red;
+}
+
+/* hermano general */
+.general h2 ~ p{
+    color: blue;
+}
+
+/* hijo directo*/
+.hijo > p, .hijo section div > p{
+    color: red;
+}
+
+/* descendiente*/
+.descendiente p{
+    color: fuchsia;
+}
