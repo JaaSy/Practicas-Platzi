@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    margin-left: 20px;
+}
+
+.uno{
+    text-align: center;
+    padding-top: 40px;
+    background-color: lightcoral;
+    height: 100px;
+    width: 250px;
+    position: relative;
+    top: 50px;
+    left: 125px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.dos{
+    background-color: lightblue;
+    height: 300px;
+    width: 500px;
+    position: static;
+    top: 20px;
+    left: 40px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.dos p{
+    padding: 100px 40px;
+}
