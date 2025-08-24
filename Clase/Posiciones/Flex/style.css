@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.container, .container2{
+    border: .3rem solid black;
+    display: flex;
+}
+
+.container{
+    height: 50vh;
+}
+
+.box{
+    width: 10rem;
+    height: 10rem;
+}
+
+.box1{
+    background-color: lightcoral;
+}
+
+.box2{
+    background-color: lightblue;
+}
+
+.box3{
+    background-color: lightgreen;
+}
+
+.box4{
+    background-color: lightpink;
+}
+
+.box5{
+    background-color: lightgray;
+}
+
+.box6{
+    background-color: lightyellow;
+}
+
+.container2{
+    flex-wrap: wrap;
+}
+
+.container2 .box{
+    height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
+}
+
+.container2 .box1{
+}
+
+.container2 .box2{
+}
+
+.container2 .box3{
+}
+
+.container2 .box4{
+}
+
+.container2 .box5{
+}
+
+.container2 .box6{
+}
